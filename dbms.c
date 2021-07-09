@@ -127,7 +127,7 @@ void interact(){
 			// printf("%s %s", data[i] -> name, name);
 			if(strcmp(data[i] -> name, name) == 0){
 				strcpy(result_mem, data[i] -> content);
-				printf("%s\n", data[i] -> content);
+				// printf("%s\n", data[i] -> content);
 				break;
 			}
 			else strcpy(result_mem, nfind);
